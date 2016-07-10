@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US" data-ng-app="myapp">
+<head>
+<title>Sample Angular JS</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<script type='text/javascript' src='https://cdn.rawgit.com/angular-ui/bootstrap/gh-pages/ui-bootstrap-0.11.2.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link href="font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<script type='text/javascript' src='myapp.js'></script>
+
+</head>
+
+<body data-ng-controller="mainCtrl" style="overflow: hidden;">
+
+<div class="row" data-ng-init="showMe = 1">
+	<div class="col-md-3" id="cntr">
+		<div class="container" id="profilepic"><img src="profile.png" class="img-responsive" alt="Profile Image"></div>
+		<div class="container" id="menu">
+			<button class="btn btn-primary btn-lg" ng-click="showMe = 1"><span class="icon"><i class="fa fa-dashboard"></i>&nbsp;<b>Dashboard</b></span></button>
+			<button class="btn btn-primary btn-lg" ng-click="showMe = 2"><span class="icon"><i class="fa fa-user"></i>&nbsp;<b>Profile</b></span></button>
+			<button class="btn btn-primary btn-lg" ng-click="showMe = 3"><span class="icon"><i class="fa fa-calendar"></i>&nbsp;<b>Schedules</b></span></button>
+			<button class="btn btn-primary btn-lg" ng-click="showMe = 4"><span class="icon"><i class="fa fa-envelope"></i>&nbsp;<b>My Email</b></span></button>
+			<button class="btn btn-primary btn-lg" ng-click="showMe = 5"><span class="icon"><i class="fa fa-calendar"></i>&nbsp;<b>My Attendance</b></span></button>
+			<button class="btn btn-primary btn-lg" ng-click="showMe = 6"><span class="icon"><i class="fa fa-money"></i>&nbsp;<b>My Payroll</b></span></button>
+			<button class="btn btn-primary btn-lg" ng-click="showMe = 7"><span class="icon"><i class="fa fa-book"></i>&nbsp;<b>My Notes</b></span></button>
+		</div>
+	</div>
+	
+	<div class="col-md-9" id="cntr">
+		<div class="box" ng-show="showMe ==1">
+			<div class="navbar navbar-default navbar-static-top" id="pagetitle">{{ dashboardtitle }}</div>
+			<div class="dataarea"></div>
+		</div>
+		<div class="box" ng-show="showMe ==2">
+			<div class="navbar navbar-default navbar-static-top" id="pagetitle">{{ profiletitle }}</div>
+			<div class="dataarea"></div>
+		</div>
+		<div class="box" ng-show="showMe ==3">
+			<div class="navbar navbar-default navbar-static-top" id="pagetitle">{{ scheduletitle }}</div>
+			<div class="schedcontainer">
+			
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#activities"><span class="icon"><i class="fa fa-list-alt"></i>&nbsp;<b>Activities</b></span></a></li>
+					<li><a data-toggle="tab" href="#addactivity"><span class="icon"><i class="fa fa-calendar-check-o"></i>&nbsp;<b>Add Activities</b></span></a></li>
+					<li><a data-toggle="tab" href="#files"><span class="icon"><i class="fa fa-paperclip"></i>&nbsp;<b>Files</b></span></a></li>
+				</ul>
+				
+				<div class="tab-content">
+					<div id="activities" class="tab-pane fade in active">
+						<h3>Activities</h3>
+						<p>Some content.</p>
+					</div>
+					
+					<div id="addactivity" class="tab-pane fade">
+						<h3>Add Activities</h3>
+						<p>Some content.</p>
+					</div>
+					
+					<div id="files" class="tab-pane fade">
+						<h3>Files</h3>
+						<p>Some content.</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="box" ng-show="showMe ==4">
+			<div class="navbar navbar-default navbar-static-top" id="pagetitle">{{ myemailtitle }}</div>
+			<div class="dataarea"></div>
+		</div>
+		<div class="box" ng-show="showMe ==5">
+			<div class="navbar navbar-default navbar-static-top" id="pagetitle">{{ myattendancetitle }}</div>
+			<div class="dataarea"></div>
+		</div>
+		<div class="box" ng-show="showMe ==6">
+			<div class="navbar navbar-default navbar-static-top" id="pagetitle">{{ mypayrolltitle }}</div>
+			<div class="dataarea"></div>
+		</div>
+		<div class="box" ng-show="showMe ==7">
+			<div class="navbar navbar-default navbar-static-top" id="pagetitle">{{ mynotestitle }}</div>
+			<div class="dataarea"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

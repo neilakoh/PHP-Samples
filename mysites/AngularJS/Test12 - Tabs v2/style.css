@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+html, body, .container, .row {
+    height: 100%;
+}
+
+.nav-tabs > li > a {
+    border:none!important;
+    border-radius: 0!important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	border-style: none!important;
+	background-color:transparent;
+	border-bottom: 3px solid #337ab7!important;
+}
+
+.nav-tabs > li > a:hover {
+	border-bottom: 3px solid #337ab7!important;
+}
+
+.schedcontainer {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+@media (max-width: 1020px) {
+	.nav-tabs > li > a {
+	display:block;
+	}
+}

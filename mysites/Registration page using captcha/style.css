@@ -1,0 +1,140 @@
+.smalltextBold {  font: bold 8pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.smalltext {  font: normal 8pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.smalltextfooter {  font: normal 8pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.smallgreytext {  font: normal 8pt Verdana, Helvetica, sans-serif; color: #666666; text-decoration: none;}
+.smalltextorange {  font: normal 8pt Verdana, Helvetica, sans-serif; color: #fb6b0c; text-decoration: none;}
+.smalltextprice {  font: normal 7pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+
+.text { font: normal 10pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.textbold { font: bold 8pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.headertextbold {  font: bold 11pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.deepbluetextbold {  font: Bold 10pt Verdana, Helvetica, sans-serif; color: #006db9;}
+.textgreenbold { font: bold 10pt Verdana, Helvetica, sans-serif; color: #008000; text-decoration: none;}
+.smalltextblue {  font: normal 8pt Verdana, Helvetica, sans-serif; color: #2176ad; text-decoration: none;}
+.textwhite { font: normal 10pt Verdana, Helvetica, sans-serif; color: #ffffff; text-decoration: none;}
+.smalltextwhite { font: normal 7pt Verdana, Helvetica, sans-serif; color: #ffffff; text-decoration: none;}
+.smalltextwhitebold { font: bold 8pt Verdana, Helvetica, sans-serif; color: #ffffff; text-decoration: none;}
+.textwhitebold { font: bold 10pt Verdana, Helvetica, sans-serif; color: #ffffff; text-decoration: none;}
+.textitalic { font: italic 10pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.textunderline { font: normal 10pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: underline;}
+.redHeaderTextBold {  font: bold 12pt Verdana, Helvetica, sans-serif; color: #b91d1d;}
+.redText {  font: normal 8pt Verdana, Helvetica, sans-serif; color: #FF3400;}
+.redTextBold {  font: Bold 8pt Verdana, Helvetica, sans-serif; color: #FF3400;}
+.smallRedText {  font: normal 8pt Verdana, Helvetica, sans-serif; color: #b91d1d;}
+.smallRedTextBold {  font: Bold 8pt Verdana, Helvetica, sans-serif; color: #b91d1d;}
+.smallBlueText {  font: normal 8p Verdana, Helvetica, sans-serif; color: #003366;}
+.smallBlueTextBold {  font: Bold 8pt Verdana, Helvetica, sans-serif; color: #003366;}
+.blueTextBold {  font: Bold 10pt Verdana, Helvetica, sans-serif; color: #003366;}
+.orangeTextbold {font: bold 10pt Verdana, Helvetica, sans-serif; color: #d99d00; text-decoration: none;}
+.largeOrangeTextbold {font: bold 12pt Verdana, Helvetica, sans-serif; color: #d99d00; text-decoration: none;}
+.bottomText {  font: bold 8p Verdana, Helvetica, sans-serif; color: #fed76e; text-decoration: none;}
+
+.smalltextyellow { font: normal 7pt Verdana, Helvetica, sans-serif; color: #FEBD11; text-decoration: none;}
+.smalltextyellowbold { font: bold 7pt Verdana, Helvetica, sans-serif; color: #FEBD11; text-decoration: none;}
+
+
+
+A.blue:link {text-decoration: none; color : #0000ff;}
+A.blue:visited {text-decoration: none; color : #0000ff;}
+A.blue:hover {text-decoration: underline; color : #ff0000;}
+A.white:hover {text-decoration: underline; color : #ffffff;}
+A.red:link {text-decoration: none; color : #000000;}
+A.red:visited {text-decoration: none; color : #000000;}
+A.red:hover {text-decoration: underline; color : #b91d1d;}
+A.yellow:link {color: #ffffff;text-decoration: none;}
+A.yellow:visited {color: #ffffff;text-decoration: none;}
+A.yellow:hover {text-decoration:none;  color : #ffff99;}
+A.white:link {color: #ffffff;text-decoration: none;}
+A.white:visited {color: #ffffff;text-decoration: none;}
+A.white:hover {text-decoration: underline; color : #ffff99;}
+
+
+A:link {font: normal 8pt Verdana, Helvetica, sans-serif; color: #c10013;text-decoration: none;}
+A:visited {font: normal 8pt Verdana, Helvetica, sans-serif; color: #c10013;text-decoration: none;}
+A:hover {font: normal 8pt Verdana, Helvetica, sans-serif; text-decoration: underline; color : #c10013;}
+
+A.menu:link {font: normal 8pt Verdana, Helvetica, sans-serif; text-decoration: none; color : #c10013;}
+A.menu:visited {font: normal 8pt Verdana, Helvetica, sans-serif;text-decoration: none; color : #c10013;}
+A.menu:hover {font: normal 8pt Verdana, Helvetica, sans-serif;text-decoration: underline; color : #c10013;}
+
+A.menuactive:link {font: bold 8pt Verdana, Helvetica, sans-serif; text-decoration: none; color : #c10013;}
+A.menuactive:visited {font: bold 8pt Verdana, Helvetica, sans-serif; text-decoration: none; color : #c10013;}
+A.menuactive:hover {font: bold 8pt Verdana, Helvetica, sans-serif; text-decoration: underline; color : #c10013;}
+
+
+input.btn_normal {font: normal 8pt Verdana, Helvetica, sans-serif; text-decoration: none;}
+input.btn_red {background-color: #cc0000; font: normal 8pt Verdana, Helvetica, sans-serif; color: #ffffff; text-decoration: none;}
+input.btn_green {background-color: #679a00; font: normal 8pt Verdana, Helvetica, sans-serif; color: #ffffff; text-decoration: none;}
+input.btn_maroon {background-color: #990033; font: normal 8pt Verdana, Helvetica, sans-serif; color: #ffffff; text-decoration: none;}
+input.btn_deep_green {background-color: #006400; font: normal 8pt Verdana, Helvetica, sans-serif; color: #ffffff; text-decoration: none;}
+input.btn_light_gray {background-color: #eeeeee; font: normal 8pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+
+#input, textarea, select {font: normal 8pt Verdana, Helvetica, sans-serif; text-decoration: none;}
+.greenText {  font: normal 8pt Verdana, Helvetica, sans-serif; color: #008000;}
+.whiteHeaderTextBold {  font: bold 10pt Verdana, Helvetica, sans-serif; color: #ffffff;}
+.tableHeader{background-color: #006db9;padding: 6px;color: #ffffff;font-weight: bold;font-family: Verdana;font-size: 12px;}
+.tableSubHeader{background-color: #006db9; font: normal 10pt Verdana, Helvetica, sans-serif;font-weight: bold; color: #ffffff; text-decoration: none;}
+.tableContent{background-color: #e8e8e8; font: normal 10pt Verdana, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.tableBoldContent{background-color: #e8e8e8; font: normal 10pt Verdana, Helvetica, sans-serif; font-weight: bold;color: #000000; text-decoration: none;}
+
+.colouredCell { background-color: #eeeeee;}
+
+.style5 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; margin-left: 20px; text-indent: 0px}
+.style7 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; margin-left: 20px; text-indent: 0px}
+.style9 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #C10013}
+
+.1table1 {border: 1px dashed #A6A6A6; border-collapse:collapse}
+.1tdheader {background-color: #eeeeee; border: 1px dashed #A6A6A6; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000;}
+
+.table1 {border-collapse:collapse;}
+.tdheader {background-color: #eeeeee; border-left: 1px dashed #A6A6A6; border-right: 1px dashed #A6A6A6; border-bottom: 1px solid #eeeeee;  padding: 6px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000;}
+
+
+.tddata {border: 1px dashed #A6A6A6; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000;  padding: 6px;}
+
+.menu_row {border-bottom: 1px solid #ffffff;}
+.subNav { margin-left: 0px; }
+.subSubNav { margin-left: 10px; }
+.pageHeader { font: bold 11pt Verdana, Helvetica, sans-serif; color: #006DB9; text-decoration: none;}
+
+
+.Toolbar {
+	BORDER-RIGHT: #eeeeee 0px solid; PADDING-RIGHT: 2px; BORDER-TOP: #eeeeee 0px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #eeeeee 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #dddddd
+}
+.ButtonNormal {
+	BORDER-RIGHT: #eeeeee 1px solid; BORDER-TOP: #eeeeee 1px solid; BORDER-LEFT: #eeeeee 1px solid; BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.ButtonPressed {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #bbbbbb 1px solid; BORDER-LEFT: #bbbbbb 1px solid; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #dddddd
+}
+.ButtonMouseOver {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #bbbbbb 1px solid; BACKGROUND-COLOR: #dddddd
+}
+.ButtonDisabled {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.Space {
+	WIDTH: 4px; HEIGHT: 24px; BACKGROUND-COLOR: #dddddd
+}
+.List {
+	BACKGROUND-COLOR: #eeeeee
+}
+.Image {
+	WIDTH: 22px; HEIGHT: 22px
+}
+.Divider {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #bbbbbb 1px solid; BORDER-LEFT: #bbbbbb 1px solid; WIDTH: 2px; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #eeeeee
+}
+
+.Heading {
+	COLOR: navy; BACKGROUND-COLOR: #eeeeee
+}
+
+
+
+.level_msg{
+font-family: Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:normal;
+color:#CC0000;
+}

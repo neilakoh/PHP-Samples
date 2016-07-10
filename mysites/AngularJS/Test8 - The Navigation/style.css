@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+#profilepic {
+	background: #ffffff;
+	width:100%;
+	height:330px;
+	margin: 0 !important;
+    padding: 0 !important;
+}
+
+#profilepic img {
+	width:100%;
+	padding:0px;
+	height:100%;
+}
+
+#menu {
+	width:100%;
+    padding: 0 !important;
+	margin-top:5px!important;
+}
+
+.row {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.btn {
+	border-radius: 0!important;
+	width: 100%;
+	text-align: left!important;
+}
+
+.col-md-3 {
+	padding:0px!important;
+	background:lightgray;
+	height:100%!important;
+	border-right: 1px solid lightgray;
+}
+
+.col-md-9 {
+    padding: 0 !important;
+}
+
+#pagetitle {
+	color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #2e6da4!important;
+    border-color: #337ab7!important;
+}
+
+html, body, .container, .row {
+    height: 100%;
+}
+
+.nav-tabs > li > a {
+    border:none!important;
+    border-radius: 0!important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	border-style: none!important;
+	background-color:transparent;
+	border-bottom: 3px solid #337ab7!important;
+}
+
+.nav-tabs > li > a:hover {
+	border-bottom: 3px solid #337ab7!important;
+}
+
+.schedcontainer {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+@media (max-width: 1020px) {
+	#cntr {
+		display:block;
+	}
+	
+	.col-md-3 {
+		height: auto!important;
+	}
+}

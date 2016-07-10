@@ -1,0 +1,202 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+/*perfectly center the wrapper on the page*/
+.wrapper_register{
+	width: 580px;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 2px 0 #000000;
+}
+
+.wrapper_login{
+	width: 580px;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 160px;
+	margin-bottom: 160px;
+	border-radius: 5px;
+	box-shadow: 0 0 2px 0 #000000;
+}
+
+.title {
+	font-size: 30px;
+    text-align: left;
+	padding: 20px!important;
+	background-color:#ff7300;
+	text-shadow: 0 0 2px #000000;
+	color:#ffffff;
+}
+
+.formarea {
+	text-align: left;
+	padding: 20px!important;
+}
+
+.uicon::before {
+	background: rgba(0, 0, 0, 0) url("images/username.png") no-repeat scroll 0 0 / 100% auto;
+    content: "";
+    display: inline-block;
+    height: 30px;
+    left: 30px;
+    margin-right: 5px;
+    position: absolute;
+    top: 110px;
+    width: 30px;
+}
+
+.passicon::before {
+	background: rgba(0, 0, 0, 0) url("images/password.png") no-repeat scroll 0 0 / 100% auto;
+    content: "";
+    display: inline-block;
+    height: 30px;
+    left: 30px;
+    margin-right: 5px;
+    position: absolute;
+    top: 164px;
+    width: 30px;
+}
+
+.repassicon::before {
+	background: rgba(0, 0, 0, 0) url("images/password.png") no-repeat scroll 0 0 / 100% auto;
+    content: "";
+    display: inline-block;
+    height: 30px;
+    left: 30px;
+    margin-right: 5px;
+    position: absolute;
+    top: 218px;
+    width: 30px;
+}
+
+.emailicon::before {
+	background: rgba(0, 0, 0, 0) url("images/email.png") no-repeat scroll 0 0 / 100% auto;
+    content: "";
+    display: inline-block;
+    height: 30px;
+    left: 30px;
+    margin-right: 5px;
+    position: absolute;
+    top: 272px;
+    width: 30px;
+}
+
+.fnameicon::before {
+	background: rgba(0, 0, 0, 0) url("images/fname.png") no-repeat scroll 0 0 / 100% auto;
+    content: "";
+    display: inline-block;
+    height: 30px;
+    left: 30px;
+    margin-right: 5px;
+    position: absolute;
+    top: 323px;
+    width: 30px;
+}
+
+.lnameicon::before {
+	background: rgba(0, 0, 0, 0) url("images/lname.png") no-repeat scroll 0 0 / 100% auto;
+    content: "";
+    display: inline-block;
+    height: 30px;
+    left: 30px;
+    margin-right: 5px;
+    position: absolute;
+    top: 377px;
+    width: 30px;
+}
+
+.inputs {
+	border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 10px 10px 50px;
+    width: 100%;
+	margin-bottom: 10px;
+	
+}
+
+@media (max-width: 1020px) {
+	.wrapper_register {
+		width: 100%!important;
+		height: 100%!important;
+		margin: 0px!important;
+	}
+	
+	.wrapper_login {
+		width: 100%!important;
+		height: 100%!important;
+		margin: 0px!important;
+	}
+}
+
+@media (max-width: 720px) {
+	.wrapper_register {
+		width: 100%!important;
+		height: 100%!important;
+		margin: 0px!important;
+	}
+	
+	.wrapper_login {
+		width: 100%!important;
+		height: 100%!important;
+		margin: 0px!important;
+	}
+}
+
+@media (max-width: 380px) {
+	.wrapper_register {
+		width: 100%!important;
+		height: 100%!important;
+		margin: 0px!important;
+	}
+	
+	.wrapper_login {
+		width: 100%!important;
+		height: 100%!important;
+		margin: 0px!important;
+	}
+	
+	.uicon::before {
+		top: 153px!important;
+	}
+	
+	.passicon::before {
+		top: 207px!important;
+	}
+	
+	.repassicon::before {
+		top: 261px!important;
+	}
+	
+	.emailicon::before {
+		top: 315px!important;
+	}
+	
+	.fnameicon::before {
+		top: 367px!important;
+	}
+	
+	.lnameicon::before {
+		top: 420px!important;
+	}
+}
